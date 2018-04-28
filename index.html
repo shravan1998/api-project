@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <h1>Weather Search</h1>
 </head>
 <body>
-    <div align="center">
-    <input id="search" onclick="load()">
-    <button>Search</button>
-
+   <div>     
+    <input id="input" type="text" >
+    <button id="search">Search</button>
     </div>
-
-   
+    <div>
+        <h4>temperature</h4>
+        <h5 id="temp"></h5>
+        <h4>Max temperature</h4>
+        <h5 id="max_temp"></h5>
+        <h4>Min Temperature</h4>
+        <h5 id="min_temp"></h5>
+        <h4>Humidity</h4>
+        <h5 id="humid"></h5>
+        
+    </div>
     
 
     
-    <script type="text/javascript" src="javascript/script.js"></script>   
+    <script type="text/javascript" src="js/api.js"></script>   
 </body>
-</html> 
+</html>
