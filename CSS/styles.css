@@ -12,5 +12,19 @@ h1{
 input{
     width: 500px;
     height:20px;
+    box-shadow: 1px 1px grey;
     
+}
+h4{
+    text-align:left;
+}
+h5{
+    text-align: left;
+}
+button{
+    height:32px;
+    width:32px;
+    color: purple;
+    box-shadow: 1px 1px 1px;
+    background-image:url("../images/search.png");
 }
