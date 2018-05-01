@@ -1,4 +1,5 @@
 document.getElementById("search").onclick=function(){currentweather()};
+document.getElementById("input").addEventListener("keyup",currentweather);
 function currentweather(){
     var city=document.getElementById("input").value;
     var weather,description;

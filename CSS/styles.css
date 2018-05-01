@@ -1,11 +1,11 @@
 body{
     text-align:center;
-    background:#ff9933;
+    background-image: url("../images/texture.jpg");
     font-family: sans-serif;
 }
 h1{
     text-align:left;
-    font-family:"Do Hyeon";
+    font-family:"Ubuntu";
     color: white;
     text-shadow: 1px 1px black;
 }
@@ -17,14 +17,17 @@ input{
 }
 h4{
     text-align:left;
+    color:white;
+    font-family: "Times New Roman";
 }
 h5{
     text-align: left;
+    color: white;
 }
 button{
-    height:32px;
-    width:32px;
-    color: purple;
-    box-shadow: 1px 1px 1px;
-    background-image:url("../images/search.png");
+    color: black;
+    box-shadow: 1px 1px;
+    background-color: white;
+    font-weight: bold;
+    font-family:"Do Hyeon";
 }
